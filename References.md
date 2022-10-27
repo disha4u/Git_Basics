@@ -20,3 +20,23 @@ ___
 9. https://opensource.com/article/18/6/git-reset-revert-rebase-commands
 
 10. https://www.tutorialspoint.com/git/git_stash_operation.htm
+
+11. https://devconnected.com/how-to-undo-last-git-commit/#:~:text=In%20order%20to%20revert%20the,last%20commit%20of%20your%20history.<br>
+    https://stackoverflow.com/questions/1270514/undoing-a-git-push<br>
+git revert (public commit)
+
+12. https://stackoverflow.com/questions/3161204/how-to-find-the-nearest-parent-of-a-git-branch<br>
+git log --first-parent<br>
+
+13. https://stackoverflow.com/questions/3810348/setting-git-parent-pointer-to-a-different-parent <br>
+git rebase --onto <new-parent> <old-parent>
+
+14. https://stackoverflow.com/questions/1338728/delete-commits-from-a-branch-in-git <br>
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git<br>
+git reset -–hard (local commit)
+
+15. https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History<br>
+git log
+
+16. https://stackoverflow.com/questions/7986139/git-error-when-trying-to-push-pre-receive-hook-declined<br>
+git pull –rebase
